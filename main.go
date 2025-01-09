@@ -137,10 +137,10 @@ func main() {
 			fmt.Println("Enter Amount : ")
 			fmt.Scanln(&amount)
 			fmt.Println("Enter Category : ")
-			categoryInput, _ := reader.ReadString('\n') // Changed input method
+			categoryInput, _ := reader.ReadString('\n') 
 			category = strings.TrimSpace(categoryInput)
 			fmt.Println("Enter Type : ")
-			typeInput, _ := reader.ReadString('\n') // Changed input method
+			typeInput, _ := reader.ReadString('\n') 
 			tType = strings.TrimSpace(typeInput)
 			fmt.Println("Enter Message (optional) : ")
 			messageInput, _ := reader.ReadString('\n')
